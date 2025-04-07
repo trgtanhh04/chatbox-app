@@ -28,7 +28,8 @@ with st.sidebar:
     api_key = st.text_input("Enter your AI API Token:", type="password", value="sk-xxx")
     st.markdown("[Get API token](https://huggingface.co/settings/tokens)")
     # st.markdown("[View the source code]")
-    st.button("Open in GitHub Codespaces")
+    # st.button("Open in GitHub Codespaces")
+    st.link_button("Open in GitHub Codespaces", "https://github.com/trgtanhh04/chatbox-app")
 
 if option == "Chatbot":
     st.title("🔎Chat with search")
