@@ -1,0 +1,67 @@
+.stApp {
+    background-color: #1E1E1E;
+    color: white;
+}
+
+/* Tùy chỉnh sidebar */
+[data-testid="stSidebar"] {
+    background-color: #2A2A2A;
+}
+
+/* Tùy chỉnh tiêu đề */
+h1 {
+    text-align: center;
+    color: white;
+}
+
+/* Tùy chỉnh văn bản phụ */
+.subtext {
+    text-align: center;
+    color: #888888;
+    font-size: 14px;
+}
+
+/* Tùy chỉnh lời chào */
+.welcome-message {
+    text-align: center;
+    color: #FFD700;
+    font-size: 18px;
+    background-color: #3A3A3A;
+    padding: 10px;
+    border-radius: 10px;
+    width: 200px;
+    margin: 0 auto;
+}
+
+/* Tùy chỉnh khu vực lịch sử chat */
+.chat-history {
+    max-height: 60vh;  /* Giới hạn chiều cao khu vực chat */
+    overflow-y: auto;  /* Thêm thanh cuộn dọc */
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+/* Tùy chỉnh container chính để hỗ trợ bố cục */
+.main-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;  /* Chiếm toàn bộ chiều cao màn hình */
+}
+
+/* Tùy chỉnh phần nhập liệu cố định ở dưới cùng */
+.input-container {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    background-color: #1E1E1E;
+    border-top: 1px solid #3A3A3A;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+}
+
+
+/* Tùy chỉnh phần nhập liệu và nút gửi */
